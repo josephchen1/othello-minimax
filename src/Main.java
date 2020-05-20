@@ -6,7 +6,7 @@ public class Main {
 	{
 		final int boardSize = 8;
 		//use other types of players later.
-		OthelloPlayer p1 = new MinimaxPlayer2();
+		OthelloPlayer p1 = new MinimaxPlayer();
 		OthelloPlayer p2 = new RandomPlayer();
 		OthelloPlayer curr = p1;
 
